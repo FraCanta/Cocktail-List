@@ -27,21 +27,34 @@ header {
     margin-left: 42px;
 }
 
+.navbar-brand a:hover{
+    color: rgb(30, 156, 62);
+    text-shadow: rgb(30, 156, 62) 0 0 2px;
+}
+
 .navbar ul {
     display: flex;
     list-style: none;
     margin-right: 42px;
+    text-transform: uppercase;
 }
 
 .navbar ul li {
     margin-right: 20px;
-    color: rgb(247, 240, 240);
+    color: rgb(255, 255, 255);
 }
 
 .navbar ul li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2.5px;
     text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(30, 156, 62);
+    text-shadow: rgb(30, 156, 62) 0 0 2px;
 }
 
 .hero {
