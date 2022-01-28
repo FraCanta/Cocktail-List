@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                   Thallion.
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="api.html">Cocktails List</a></li>
+                <li><a href="about.html">Menu</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="hero">
+        <div class="hero_text">
+            <h1>Thallion's</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit praesentium dolore vel consequuntur, saepe animi esse perferendis voluptatem omnis placeat ipsam voluptatibus nesciunt reiciendis. Deserunt ipsum reiciendis voluptas provident.</p>
+        </div>
+        <div class="hero_image">
+            <img src="assets/img/hendrick-s-gin.png" alt="hero" >
+            <img src="assets/img/gin-tonic.png" alt="hero" >    
+        </div>
+    </div>
+    <main>
+        <div class="intro">
+            <h1>Cocktails</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat, nesciunt excepturi architecto
+                asperiores
+                ex inventore aperiam quaerat tempora? Nihil fugit mollitia iusto corrupti officia esse labore, quidem
+                incidunt
+                ab.</p>
+        </div>
+
+        <div class="container">
+            <div class="cocktail-btn">
+                <h3>Scegli il tuo Drink</h3>
+
+            </div>
+            <!-- search bar -->
+            <div>
+               <form>
+                    <input type="text" name="search" id="search" placeholder="Cerca cocktail">
+                    <button type="submit" id="search-btn">Cerca</button>
+                
+                    <select title="select" id="filter-nome">
+                        <option value="">All</option>
+                        <option value="ordinary drink">Ordinary Drink</option>
+                        <option value="shot">Shot</option>
+                        <option value="other/unknown">Other/Unknown</option>
+                        <option value="coffee / tea">Coffee/Tea</option>
+                        <option value="cocktail">Cocktail</option>
+
+                    </select>
+                    <button type="button" id="filter-btn">Filtra</button>
+                    
+                </form>
+               
+
+            <!-- renderizzare le cards dallo script-->
+            <div id="cards">
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
