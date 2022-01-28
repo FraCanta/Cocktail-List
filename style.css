@@ -24,13 +24,13 @@ header {
     color: #fff;
     text-decoration: none;
     text-shadow: rgb(247, 238, 245) 0 0 2px;
-    margin-left: 30px;
+    margin-left: 42px;
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    margin-right: 42px;
 }
 
 .navbar ul li {
