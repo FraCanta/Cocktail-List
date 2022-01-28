@@ -50,7 +50,7 @@ header {
     display: flex;
     position: relative;
     z-index: 1;
-    background-image : url('./assets/img/wooden-table-looking-out-to-a-defocussed-room-interior.jpg');
+    background-image : url('/assets/img/wooden-table-looking-out-to-a-defocussed-room-interior.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
