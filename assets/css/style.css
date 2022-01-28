@@ -114,6 +114,9 @@ header {
 .hero_image img {
     width: 50%;
     height: 98%;
+    -webkit-object-fit: contain;
+    -moz-objet-fit: contain;
+    -o-object-fit: contain;
     object-fit: contain;
     position: absolute;
     top: -2%;
