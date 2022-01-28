@@ -252,3 +252,15 @@ select option {
     cursor: pointer;
 }
 
+.box {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(12, 145, 72);
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
