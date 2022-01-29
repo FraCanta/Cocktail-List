@@ -410,6 +410,8 @@ select option {
 
     .hero_text {
         padding: 20px;
+        width: 80%;
+        height: 100%;
     }
 
     .hero .hero_text h1 {
@@ -418,7 +420,7 @@ select option {
 
     .hero .hero_text p {
         font-size: 0.9em;
-        width: 80%;
+       
     }
 
     .hero_image img {
