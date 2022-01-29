@@ -461,4 +461,8 @@ select option {
     font-size: 0.9em;
     padding: 5px;
   }
+
+  .wrapper_2 video {
+      width: 500px;
+  }
 }
