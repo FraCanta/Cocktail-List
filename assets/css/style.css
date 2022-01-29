@@ -432,6 +432,10 @@ select option {
         left: 25%;
     }
 
+    .intro {
+        padding: 30px;
+    }
+
     .intro h2{
         font-size: 1.8em;
     }
