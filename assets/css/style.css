@@ -408,12 +408,13 @@ select option {
         height: 70vh;
     }
 
-    .hero .hero_text {
+    .hero_text {
         padding: 0px;
     }
 
     .hero .hero_text h1 {
         font-size: 2.5em;
+        padding: 0;
     }
 
     .hero .hero_text p {
