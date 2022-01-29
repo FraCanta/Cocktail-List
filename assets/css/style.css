@@ -505,6 +505,28 @@ select option {
     left: 25%;
   }
 
+  .hero_text_2 {
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+  }
+
+  .hero .hero_text h1 {
+    font-size: 1.5em;
+  }
+
+  .hero .hero_text_2 p {
+    font-size: 0.9em;
+  }
+
+  .hero_image_2 img {
+    left: 55%;
+  }
+
+  .hero_image_2 img:nth-child(2) {
+    left: 25%;
+  }
+
   .intro {
     padding: 30px;
   }
