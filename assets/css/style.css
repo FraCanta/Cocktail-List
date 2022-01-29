@@ -242,7 +242,7 @@ main {
 .card img {
   width: 70%;
   height: 70%;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 10px;
 }
 
