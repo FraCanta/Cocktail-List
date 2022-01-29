@@ -494,4 +494,9 @@ select option {
         height: 300px;
         margin: 10px;
     }
+
+    #cards .card img {
+        width: 100%;
+        height: 100%;
+    }
 }
