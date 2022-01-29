@@ -517,6 +517,7 @@ select option {
 
   .hero .hero_text_2 p {
     font-size: 0.9em;
+    width: 70%;
   }
 
   .hero_image_2 img {
