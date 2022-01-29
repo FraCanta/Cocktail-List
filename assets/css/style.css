@@ -106,6 +106,15 @@ header {
   align-items: left;
 }
 
+.hero_text_2 {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
 .hero_text h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -127,11 +136,47 @@ header {
   font-weight: 100;
 }
 
+.hero_text_2 h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: rgb(247, 238, 245) 0 0 2px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Acme", sans-serif;
+}
+
+.hero_text_2 p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: rgb(247, 238, 245) 0 0 2px;
+  width: 50%;
+  line-height: 1.5;
+  font-family: "Fira Code", monospace;
+  font-weight: 100;
+}
+
 .hero_image {
   flex: 1;
 }
 
 .hero_image img {
+  width: 50%;
+  height: 98%;
+  -webkit-object-fit: contain;
+  -moz-objet-fit: contain;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  transform: rotate(-0.5deg);
+  /* slide from right */
+  animation: slide-in-right 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.hero_image_2 img {
   width: 50%;
   height: 98%;
   -webkit-object-fit: contain;
@@ -156,6 +201,16 @@ header {
 }
 
 .hero_image img:nth-child(2) {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 25%;
+  left: 18%;
+  transform: rotate(0deg);
+  opacity: 1.5;
+}
+
+.hero_image_2 img:nth-child(2) {
   position: absolute;
   width: 80%;
   height: 80%;
