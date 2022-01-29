@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+    <header id="navbar">
         <nav class="navbar">
             <div class="navbar-brand">
                 <a href="index.html">
@@ -31,37 +32,7 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-        <script>
-            document.addEventListener("DOMContentLoaded",function(){
-                 var nut = document.querySelector('#navbar .toggle_menu');
-                 var mobile = document.querySelector('ul');
-                 nut.addEventListener('click',function(){
-                     mobile.classList.toggle('active');
-                 })
-             })
-     
-             // fade in
-             document.addEventListener("DOMContentLoaded", function() {
-                 var elems = document.querySelectorAll(".fade-in");
-                 var instances = M.Lazy.init(elems, {
-                     onLoad: function(element) {
-                         element.style.opacity = 1;
-                     }
-                 });
-             });
-     
-             document.addEventListener("DOMContentLoaded", function() {
-                 var bar = document.querySelectorAll(".bar1, .bar2, .bar3");
-                 // animation al click sull'icona
-                 bar.addEventListener("click", function() {
-                     this.classList.toggle("animate");
-                 });
-             });
-     
-             
-     
-     
-             </script>
+       
 
     </header>
     <div class="hero">
@@ -133,8 +104,9 @@
 
     </main>
 
-
+    <script src="assets/js/toggle.js"></script>
     <script src="assets/js/script.js"></script>
+    
 </body>
 
 </html>
