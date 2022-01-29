@@ -363,37 +363,6 @@ select option {
     padding: 10px;
     font-family: 'Fira Code', monospace;
 }
-.wrapper ul{
-    list-style: none;
-    width:100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin:30px 0;
-    padding:10px;
-}
-
-.wrapper li{
-    cursor: pointer;
-    width:30px;
-    height:30px;
-}
-.wrapper i{
-    color:#ccc;
-    font-size: 1.5rem;
-    transition: all 0.3s ease;
-}
-.wrapper li:hover .fa-twitter{
-    transform:translate3d(0,-10px,20px);
-    color:#00acee;
-}
-.wrapper li:hover .fa-github{
-    transform:translate3d(0,-10px,20px);
-    color:gray;
-}
-.wrapper li:hover .fa-linkedin-in{
-    transform:translate3d(0,-10px,20px);
-    color:#077099;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -443,6 +412,10 @@ select option {
     .intro p {
         font-size: 0.9em;
         padding: 5px;
+    }
+
+    .wrapper .box {
+        width: 50%;
     }
 
 
