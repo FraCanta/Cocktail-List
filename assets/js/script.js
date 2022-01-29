@@ -41,8 +41,8 @@ function getCocktails(option) {
         card.classList.add("card");
         card.innerHTML =
           '<img src="' + filtered[i].strDrinkThumb + '" alt="' + filtered[i].strDrink + '">' +
-          '<h2>' + filtered[i].strDrink + '</h2>' +
-          '<p>' + filtered[i].strInstructions + '</p>';
+          '<h2>' + filtered[i].strDrink + '</h2>'
+          
         cards.appendChild(card);
       }
       var search = document.getElementById("search");
