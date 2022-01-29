@@ -401,6 +401,7 @@ select option {
         display: block;
         color: white;
         text-decoration: none;
+        padding: 50px;
         font-size: 1.5em;
         font-weight: 600;
         font-family: "Acme", sans-serif;
