@@ -1,3 +1,4 @@
+
 // chiamata api da cocktails db e creazione card cocktails in div cards con i dati ricevuti
 
 
@@ -74,3 +75,7 @@ function getCocktails(option) {
 }
 
 getCocktails();
+
+
+
+

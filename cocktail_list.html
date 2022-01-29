@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <div class="navbar-brand">
                 <a href="index.html">
-                   Thallion.
+                    Thallion's
                 </a>
             </div>
             <ul>
@@ -21,16 +26,18 @@
                 <li><a href="about.html">Menu</a></li>
             </ul>
         </nav>
-        
+
     </header>
     <div class="hero">
         <div class="hero_text">
             <h1>Our Drinks</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit praesentium dolore vel consequuntur, saepe animi esse perferendis voluptatem omnis placeat ipsam voluptatibus nesciunt reiciendis. Deserunt ipsum reiciendis voluptas provident.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit praesentium dolore vel
+                consequuntur, saepe animi esse perferendis voluptatem omnis placeat ipsam voluptatibus nesciunt
+                reiciendis. Deserunt ipsum reiciendis voluptas provident.</p>
         </div>
         <div class="hero_image">
-            <img src="assets/img/Gin-Mare.png" alt="hero" >
-            <img src="assets/img/gin-tonic.png" alt="hero" >    
+            <img src="assets/img/Gin-Mare.png" alt="hero">
+            <img src="assets/img/gin-tonic.png" alt="hero">
         </div>
     </div>
     <main>
@@ -50,10 +57,10 @@
             </div>
             <!-- search bar -->
             <div>
-               <form>
+                <form>
                     <input type="text" name="search" id="search" placeholder="Cerca cocktail">
                     <button type="submit" id="search-btn">Cerca</button>
-                
+
                     <select title="select" id="filter-nome">
                         <option value="">All</option>
                         <option value="ordinary drink">Ordinary Drink</option>
@@ -64,15 +71,15 @@
 
                     </select>
                     <button type="button" id="filter-btn">Filtra</button>
-                    
+
                 </form>
-               
 
-            <!-- renderizzare le cards dallo script-->
-            <div id="cards">
 
+                <!-- renderizzare le cards dallo script-->
+                <div id="cards">
+
+                </div>
             </div>
-        </div>
 
 
     </main>
@@ -80,4 +87,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
