@@ -474,7 +474,12 @@ select option {
     font-size: 1.5em;
   }
 
-  .wrapper_2 form {
+  .wrapper_2 form input {
       width: 100%;
   }
+
+    .wrapper_2 form button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
