@@ -376,7 +376,7 @@ select option {
     z-index: 1;
     animation-delay: 0.5s;
     animation: slideIn 1s;
-    padding: 80px;
+    padding: 20px;
   }
 
   .navbar ul li{
