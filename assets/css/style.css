@@ -367,7 +367,7 @@ select option {
     margin: 0;
     background-color: rgba(22, 22, 22, 1);
     backdrop-filter: blur(5px);
-    width: 50%;
+    width: 100%;
     min-height: 100vh;
     position: absolute;
     top: 60px;
@@ -376,7 +376,6 @@ select option {
     z-index: 1;
     animation-delay: 0.5s;
     animation: slideIn 1s;
-    padding: 20px;
   }
 
   .navbar ul li{
