@@ -406,6 +406,7 @@ select option {
     }
     .hero {
         height: 70vh;
+        flex-direction: column;
     }
 
     .hero_text {
