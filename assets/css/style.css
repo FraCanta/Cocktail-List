@@ -189,11 +189,11 @@ main {
 
 .intro p {
     font-size: 1.2em;
-    margin: 0 0 1em 0;
     font-weight: 400;
-    width: 90%;
-    margin-left: 78px;
+    width: 100%;
+    justify-content: center;
     font-family: 'Fira Code', monospace;
+    padding: 20px;
 }
 
 
@@ -430,6 +430,16 @@ select option {
 
     .hero_image img:nth-child(2) {
         left: 25%;
+    }
+
+    .intro h2{
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 0.8rem;
+        margin: 0 0 1em 0;
+        
     }
 
 
