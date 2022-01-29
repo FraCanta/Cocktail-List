@@ -465,4 +465,16 @@ select option {
   .wrapper_2 video {
       width: 500px;
   }
+
+  .container_2 {
+      margin: 7px auto;
+  }
+
+  .cocktail-btn h3 {
+    font-size: 1.5em;
+  }
+
+  .wrapper_2 form {
+      width: 100%;
+  }
 }
