@@ -404,16 +404,12 @@ select option {
     .toggle_menu {
         display: block;
     }
-
-    .container {
-        width: 100%;
-    }
     .hero {
         height: 70vh;
     }
 
     .hero .hero-text {
-        padding: 10px;
+        padding: 0px;
     }
 
     .hero .hero_text h1 {
