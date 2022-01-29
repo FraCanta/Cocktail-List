@@ -18,8 +18,7 @@ function getCocktails(option) {
           card.classList.add("card");
           card.innerHTML =
             '<img src="' + cocktails[i].strDrinkThumb + '" alt="' + cocktails[i].strDrink + '">' +
-            '<h2>' + cocktails[i].strDrink + '</h2>' +
-            '<p>' + cocktails[i].strInstructions + '</p>';
+            '<h2>' + cocktails[i].strDrink + '</h2>' 
           cards.appendChild(card);
       
       }
