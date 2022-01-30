@@ -214,14 +214,14 @@
 
 @media screen and (max-width: 768px) {
     .loader-wrap {
-        padding: 0;
+        padding: 90px;
     }
 
     .bar {
-        width: 100%;
+        width: 50%;
     }
     .bottle {
-        left: 0;
+        left: 150px;
         bottom: 0;
         width: 100px;
     }

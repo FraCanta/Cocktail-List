@@ -470,6 +470,7 @@ select option {
 @media screen and (max-width: 768px) {
   header {
     padding: 10px;
+    height: 60px;
   }
   .navbar ul {
     display: none;
@@ -498,7 +499,7 @@ select option {
   .toggle_menu {
     display: block;
     margin-right: 50px;
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .toggle_menu:hover .bar1,
