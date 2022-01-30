@@ -499,7 +499,7 @@ select option {
   .toggle_menu {
     display: block;
     margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   .toggle_menu:hover .bar1,
