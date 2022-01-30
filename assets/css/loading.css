@@ -214,7 +214,7 @@
 
 @media screen and (max-width: 768px) {
     .loader-wrap {
-        padding: 200px;
+        padding: 0;
     }
 
     .bar {
