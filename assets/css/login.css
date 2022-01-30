@@ -181,6 +181,7 @@ button[type="submit"]:hover {
     }
   .login {
     width: 100%;
+    padding: 20px;
   }
   .background {
     display: none;
