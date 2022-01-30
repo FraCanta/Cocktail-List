@@ -633,4 +633,19 @@ select option {
   .soccer_text{
     padding: 60px;
   }
+
+  .soccer_text h2 {
+    font-size: 2.5em;
+    margin: 5px px 0px 0px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: "Acme", sans-serif;
+  }
+
+  .soccer_text p {
+    font-size: 1.5em;
+    margin: 5px px 0px 0px;
+    font-weight: 200;
+    font-family: "Fira Code", monospace;
+  }
 }
