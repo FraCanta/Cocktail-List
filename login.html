@@ -33,8 +33,17 @@
               </label>
             </div>
             <button type="submit" id="login-btn"><i class="fas fa-door-open"></i> Sign in</button>
-            <a href="#">Forgot your password?</a>
-            <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+           
+
+            <div class="social-login">
+                
+              <p>Or login with</p>
+              
+              <div class="social-login-btn">
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+              </div>
+            </div>
+            
     <script>
       function onSignIn(googleUser) {
         // Useful data for your client-side scripts:
@@ -53,7 +62,7 @@
     </script>
           </form>
             
-          
+          <a href="#">Forgot your password?</a>
         </div>
         <div class="background">
           <h1>Welcome to Thallion's Pub </h1>
