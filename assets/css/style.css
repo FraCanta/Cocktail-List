@@ -648,4 +648,8 @@ select option {
     font-weight: 200;
     font-family: "Fira Code", monospace;
   }
+
+  .soccer-supporter img {
+    width: 100%;
+  }
 }
