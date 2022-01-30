@@ -209,3 +209,28 @@
 	0%{width:0}
 	100%{width:100%}
 }
+
+/* responsive 768px */
+
+@media screen and (max-width: 768px) {
+    .loader-wrap {
+        padding: 200px;
+    }
+
+    .bar {
+        width: 100%;
+    }
+    .bottle {
+        left: 0;
+        bottom: 0;
+        width: 100px;
+    }
+
+    .cap {
+        left: 0;
+        right: 0;
+        top: -15px;
+        z-index: 1;
+        width: 100%;
+    }
+}
