@@ -186,4 +186,9 @@ button[type="submit"]:hover {
   .background {
     display: none;
   }
+
+  .g-signin2 {
+    margin-top: 10px;
+  
+  }
 }
