@@ -4,7 +4,7 @@
 }
 
 header {
-  height: 90px;
+  height: 50px;
   background-color: rgb(29, 29, 29);
   display: flex;
   padding: 20px;
@@ -187,7 +187,7 @@ header {
   top: -2%;
   left: 45%;
   transform: rotate(-0.5deg);
-  /* slide from right with delay */
+  /* slide from right */
   animation: slide-in-right 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -470,7 +470,6 @@ select option {
 @media screen and (max-width: 768px) {
   header {
     padding: 10px;
-    height: 60px;
   }
   .navbar ul {
     display: none;
@@ -499,7 +498,7 @@ select option {
   .toggle_menu {
     display: block;
     margin-right: 50px;
-    margin-top: 8px;
+    margin-top: 5px;
   }
 
   .toggle_menu:hover .bar1,
