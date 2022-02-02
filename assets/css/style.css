@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 header {
   height: 50px;
   background-color: rgb(29, 29, 29);
@@ -653,3 +654,4 @@ select option {
     width: 100%;
   }
 }
+
