@@ -15,7 +15,7 @@ function getCocktails(option) {
       cards.innerHTML = "";
       for (var i = 0; i < cocktails.length; i++) {
           var card = document.createElement("div");
-          card.classList.add("card");
+          card.classList.add("carta");
           card.innerHTML =
             '<img src="' + cocktails[i].strDrinkThumb + '" alt="' + cocktails[i].strDrink + '">' +
             '<h2>' + cocktails[i].strDrink + '</h2>' 
@@ -38,7 +38,7 @@ function getCocktails(option) {
       cards.innerHTML = "";
       for (var i = 0; i < filtered.length; i++) {
         var card = document.createElement("div");
-        card.classList.add("card");
+        card.classList.add("carta");
         card.innerHTML =
           '<img src="' + filtered[i].strDrinkThumb + '" alt="' + filtered[i].strDrink + '">' +
           '<h2>' + filtered[i].strDrink + '</h2>'

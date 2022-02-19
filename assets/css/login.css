@@ -1,13 +1,3 @@
-body{
-	font-family: sans-serif;
-	margin:0;
-	line-height: 1.5;
-}
-
-*{
-	box-sizing: border-box;
-	margin:0;
-}
 
 .login-popup{
 	position: fixed;
@@ -28,7 +18,7 @@ body{
 .login-popup .box{
 	background-color:#ffffff;
 	width: 70%;
-	height: 70vh;
+	height: 60vh;
 	position: absolute;
 	left: 50%;
 	top:50%;
@@ -83,6 +73,7 @@ body{
 	top: 0;
 	width: 100%;
 	height: 100%;
+	-webkit-backdrop-filter: blur(3px);
 	backdrop-filter: blur(3px);
 	z-index: -1;
 }
@@ -99,37 +90,7 @@ body{
 	font-size: 30px;
 	margin:0 0 30px;
 }
-.login-popup .box .form .form-control{
-	height: 45px;
-	margin-bottom: 30px;
-	width: 100%;
-	border:none;
-	border-bottom:1px solid #cccccc;
-	font-size: 15px;
-	color:#000000;
-}
-.login-popup .box .form .form-control:focus{
-	outline: none;
-}
-.login-popup .box .form label{
-	font-size: 15px;
-	color:#555555;
-}
-.login-popup .box .form .btn{
-	width: 100%;
-	background-color: #115e24;
-	margin-top:40px;
-	height: 45px;
-	border:none;
-	border-radius: 25px;
-	font-size: 15px;
-	text-transform: uppercase;
-	color:#ffffff;
-	cursor: pointer;
-}
-.login-popup .box .form .btn:focus{
-	outline: none;
-}
+
 
 .login-popup .box .form .close{
 	position: absolute;
@@ -138,6 +99,33 @@ body{
 	font-size: 30px;
 	cursor: pointer;
 }
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.buttons .button-circle {
+	width: 160px;
+	height: 160px;
+	border: 2px solid #115e24;
+	border-radius: 50%;
+	background-color: #115e24;
+	color: #ffffff;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.button-circle:hover {
+	transform: scale(1.1);
+}
+
+
 
 /*responsive*/
 @media(max-width: 767px){

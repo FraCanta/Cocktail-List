@@ -1,11 +1,12 @@
 * {
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
 
 
 header {
-  height: 50px;
+  height: 100px;
   background-color: rgb(29, 29, 29);
   display: flex;
   padding: 20px;
@@ -274,7 +275,7 @@ main {
   justify-content: center;
 }
 
-#cards .card {
+#cards .carta {
   position: relative;
   width: 400px;
   height: 400px;
@@ -295,14 +296,14 @@ main {
   transform: perspective(800px);
 }
 
-.card img {
+.carta img {
   width: 70%;
   height: 70%;
   border-radius: 100%;
   padding: 10px;
 }
 
-.card h2 {
+.carta h2 {
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
@@ -317,44 +318,6 @@ main {
   text-align: center;
 }
 
-form {
-  margin: 0 auto;
-  width: 70%;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form input {
-  width: 80%;
-  padding: 10px;
-  margin: 0 0 1em 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-form button {
-  background-color: rgb(12, 145, 72);
-  border-radius: 5px;
-  border: 1px solid rgb(12, 145, 72);
-  padding: 8px 18px;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-select {
-  width: 82%;
-  padding: 10px;
-  margin: 0 0 1em 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-select option {
-  font-weight: bold;
-  cursor: pointer;
-}
 
 .wrapper {
   width: 100%;
@@ -404,6 +367,29 @@ select option {
   width: 90%;
   margin-bottom: 20px;
 }
+
+.wrapper_2 form button {
+	background-color: #115e24;
+	color: #ffffff;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.wrapper_2 form select {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 20px;
+} 
+
+.wrapper_2 form input {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
 .wrapper h2 {
   color: #f5f5f5;
   font-size: 2.5rem;
@@ -418,10 +404,11 @@ select option {
 }
 
 .soccer {
-  max-height: 100vh;
+  max-height: 60vh;
   display: flex;
   flex-direction: row;
   position: relative;
+  padding: 50px;
 }
 
 .soccer::after {
@@ -440,7 +427,7 @@ select option {
 
 .soccer_text {
   flex: 1;
-  padding: 190px;
+  padding: 60px;
   color: #fff;
 }
 
@@ -461,11 +448,172 @@ select option {
 
 .soccer-supporter {
   flex: 1;
-  background-color: rgb(69, 80, 72);
 }
 
 .soccer-supporter img {
-  margin-top: 50px;
+  padding: 30px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+  text-decoration: none;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.site-footer iframe {
+  width: 100%;
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  text-decoration: none;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  text-decoration: none;
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.github:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -499,7 +647,7 @@ select option {
   .toggle_menu {
     display: block;
     margin-right: 50px;
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .toggle_menu:hover .bar1,
@@ -627,12 +775,12 @@ select option {
   }
 
   .soccer {
-    
+    max-height: 100vh;
     flex-direction: column;
   }
 
   .soccer_text{
-    padding: 20px;
+    padding: 5px;
   }
 
   .soccer_text h2 {
@@ -644,7 +792,7 @@ select option {
   }
 
   .soccer_text p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 5px px 0px 0px;
     font-weight: 200;
     font-family: "Fira Code", monospace;
@@ -652,6 +800,7 @@ select option {
 
   .soccer-supporter img {
     width: 100%;
+    padding: 0;
   }
 }
 
