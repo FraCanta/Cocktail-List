@@ -618,7 +618,7 @@ main {
 
 @media (max-width: 767px) {
   header {
-    padding: 10px;
+    padding: 0px;
   }
   .navbar ul {
     display: none;
@@ -647,7 +647,7 @@ main {
   .toggle_menu {
     display: block;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   .toggle_menu:hover .bar1,
@@ -678,19 +678,20 @@ main {
   }
 
   .hero {
-    height: 70vh;
+    max-height: 70vh;
     flex-direction: column;
     z-index: -1;
   }
 
   .hero_text {
+    margin-top: 10px;
     padding: 20px;
     width: 70%;
     height: 100%;
   }
 
   .hero .hero_text h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .hero .hero_text p {
@@ -698,11 +699,11 @@ main {
   }
 
   .hero_image img {
-    left: 55%;
+    left: 48%;
   }
 
   .hero_image img:nth-child(2) {
-    left: 25%;
+    left: 18%;
   }
 
   .hero_text_2 {
