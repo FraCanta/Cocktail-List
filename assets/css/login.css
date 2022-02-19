@@ -143,4 +143,16 @@
 	.img-area .img{
 		display: none;
 	}
+
+	.buttons {
+		margin-top: 30px;
+	}
+	
+	.buttons .button-circle {
+		width: 60px;
+		height: 60px;
+		
+	}
+	
+	
 }

@@ -686,7 +686,7 @@ main {
   .hero_text {
     margin-top: 10px;
     padding: 20px;
-    width: 70%;
+    width: 80%;
     height: 100%;
   }
 
@@ -763,14 +763,14 @@ main {
     margin-bottom: 20px;
   }
 
-  #cards .card {
+  #cards .carta {
     padding: 5px;
     width: 300px;
     height: 300px;
     margin: 10px;
   }
 
-  #cards .card img {
+  #cards .carta img {
     width: 50%;
     height: 50%;
   }
