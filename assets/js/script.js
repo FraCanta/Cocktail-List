@@ -114,7 +114,7 @@ function getMeals() {
               <img src="${meals[i].strMealThumb}" alt="">
                    <div class="card-body">
                   <h5 class="card-title">${meals[i].strMeal}</h5>
-                <a href="${meals[i].strYoutube}" class="btn btn-success">
+                <a target="_blank" href="${meals[i].strYoutube}" class="btn btn-success">
                   Scopri
                 </a>
                   </div>
@@ -123,14 +123,14 @@ function getMeals() {
             `;
         cards.appendChild(card);
       }
-        var select = document.getElementById("filter-nome");
-        var button = document.querySelector("#filter-btn");
+        var select = document.getElementById("filterMeal-nome");
+        var button = document.querySelector("#filterMeal-btn");
         button.addEventListener("click", function (e) {
           e.preventDefault();
           var option = select.value;
           console.log(option);
           var filtered = meals.filter(function (meal) {
-            return meals.strCategory.toLowerCase().includes(option.toLowerCase());
+            return meal.strCategory.toLowerCase().includes(option.toLowerCase());
           });
           console.log(filtered);
 
@@ -147,8 +147,9 @@ function getMeals() {
               <img src="${filtered[i].strMealThumb}" alt="">
                    <div class="card-body">
                   <h5 class="card-title">${filtered[i].strMeal}</h5>
-                  <a href="${meals[i].strYoutube}" class="btn btn-success">
-
+                  <a target="_blank"  href="${meals[i].strYoutube}" class="btn btn-success">
+                  Scopri
+                </a>
                   </div>
               </div>
             </div>
@@ -156,8 +157,8 @@ function getMeals() {
 
           cards.appendChild(card);
         }
-        var search = document.getElementById("search");
-        var button = document.querySelector("#search-btn");
+        var search = document.getElementById("search-meal");
+        var button = document.querySelector("#searchMeal-btn");
         button.addEventListener("click", function (e) {
           e.preventDefault();
           var option = search.value;
