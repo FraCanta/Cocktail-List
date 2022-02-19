@@ -722,11 +722,11 @@ main {
   }
 
   .hero_image_2 img {
-    left: 55%;
+    left: 48%;
   }
 
   .hero_image_2 img:nth-child(2) {
-    left: 25%;
+    left: 18%;
   }
 
   .intro {
@@ -781,20 +781,20 @@ main {
   }
 
   .soccer_text{
-    padding: 5px;
+    padding: 2px;
   }
 
   .soccer_text h2 {
-    font-size: 2.5em;
-    margin: 5px px 0px 0px;
+    font-size: 1.7em;
+    margin: 0;
     line-height: 1.5;
     font-weight: 600;
     font-family: "Acme", sans-serif;
   }
 
   .soccer_text p {
-    font-size: 1.2em;
-    margin: 5px px 0px 0px;
+    font-size: 0.9em;
+    margin-bottom:10px;
     font-weight: 200;
     font-family: "Fira Code", monospace;
   }
