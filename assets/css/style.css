@@ -540,7 +540,7 @@ main {
 }
 
 .scheda .card {
-  max-width: 400px;
+max-width: 400px;
  margin-bottom: 30px;
  color: #26272b;
 }
@@ -858,6 +858,13 @@ main {
   .soccer-supporter img {
     width: 100%;
     padding: 0;
+  }
+
+
+  .scheda .card {
+    width: 100%;
+    margin-bottom: 20px;
+   
   }
 }
 
