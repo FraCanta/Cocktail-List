@@ -257,7 +257,7 @@ main {
 
 .container_2 {
   max-width: 90%;
-  margin: 80px auto;
+  margin: 35px auto;
   color: white;
   padding: 50px;
 }
@@ -461,6 +461,7 @@ main {
   font-size:15px;
   line-height:24px;
   color:#737373;
+  font-family: "Fira Code", monospace;
 }
 .site-footer hr
 {
@@ -543,6 +544,11 @@ main {
 max-width: 400px;
  margin-bottom: 30px;
  color: #26272b;
+}
+
+.scheda .card-title {
+  font-family: "Fira Code", monospace;
+
 }
 
 .hero_3 {
