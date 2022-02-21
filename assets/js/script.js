@@ -86,6 +86,10 @@ function getCocktails(option) {
         });
       });
     }
+    // error
+    else {
+      console.log("error");
+    }
   };
 
   xhr.send();
@@ -186,6 +190,10 @@ function getMeals() {
           }
         });
       });
+    }
+    // error
+    else {
+      console.log("error");
     }
   };
 
