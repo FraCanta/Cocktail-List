@@ -71,7 +71,7 @@ function getCocktails(option) {
           cards.innerHTML = "";
           for (var i = 0; i < filtered.length; i++) {
             var card = document.createElement("div");
-            card.classList.add("card");
+            card.classList.add("carta");
             card.innerHTML =
               '<img src="' +
               filtered[i].strDrinkThumb +
